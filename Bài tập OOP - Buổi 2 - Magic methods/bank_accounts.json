@@ -1,0 +1,23 @@
+[
+    {
+        "account_number": "1",
+        "account_name": "Thanh",
+        "balance": 9000000000
+    },
+    {
+        "account_number": "2",
+        "account_name": "Giang",
+        "balance": 10000000000
+    },	
+    {
+        "account_number": "3",
+        "account_name": "Yến",
+        "balance": 10000000000
+    },
+    {
+        "account_number": "4",
+        "account_name": "Trang",
+        "balance": 54000000000
+    }
+
+]
