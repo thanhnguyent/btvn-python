@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>About</title>
+        <link
+            rel="stylesheet"
+            href="{{url_for('static', filename='style.css')}}"
+        />
+    </head>
+    <body>
+        {% include 'header_menu.html' %}
+         
+    
+        <section class="section">
+            <h2 class="section-header">About me</h2>
+        
+            <p class="author-name">Trang blog</p>
+            <div class="entry-content">
+                
+                <p>Dear friends!</p>
+                <p>Từ khi tôi còn nhỏ, vì là một đứa trẻ cô độc và ít bạn, nên việc đọc sách, xem phim, viết nhật ký đã trở thành những thói quen thường xuyên giúp tôi giải khuây.</p>
+                <p><i>Since I was little, being alone most of the time with only a few friends has made me very much interested in reading books, watching movies and keeping daily notes. These activities have become the regular pastimes to keep myself entertained.</i></p>
+                
+        </section>   
+            
+        <footer class="footer">
+            <hr>
+            <p class="copy-right">Blogs 2021</p>
+        </footer>
+    
+    </body>
+</html>

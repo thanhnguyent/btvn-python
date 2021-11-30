@@ -3,8 +3,9 @@ from db import edit_post1
 from db import add_post, get_post
 from datetime import datetime
 from docx import Document
-from docx.shared import Cm
-app= Flask(__name__)
+from docx.shared import Inches
+
+app= Flask(__name__, template_folder='template')
 
 post_base= get_post()
 post = {}
@@ -25,7 +26,7 @@ def regiss():
     para.add_run(fullname).bold = True
     para.add_run(". Mục đích tôi viết bức thư này là ")
     para.add_run(reason).italic = True
-    doc.save('Baitapcuoikhoa/cv1.docx')
+    doc.save('btvn blog/cv1.docx')
     return redirect("/resignation-letter", code=302)
 
 
